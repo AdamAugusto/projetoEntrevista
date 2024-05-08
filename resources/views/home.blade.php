@@ -3,7 +3,14 @@
 @section('titulo', 'Home')
 
 @section('conteudo')
-        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+    <div class="d-flex justify-content-center">
+        <ul style="list-style: none; width: 1000px" class="text-center">
+            <li class="d-flex justify-content-center">
+                <canvas id="myChart" style="width:100%;max-width:800px"></canvas>
+            </li>
+            <li> porcentagem de realizados dentro do prazo:    {{($dentroPrazo/($dentroPrazo+$foraPrazo))*100}}%</li>
+        </ul>
+    </div>
         <script
         src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
         </script>
