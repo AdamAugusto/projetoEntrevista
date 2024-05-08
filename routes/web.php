@@ -16,4 +16,4 @@ Route::post('/chamado/store', [ChamadoController::class, 'store']);
 Route::post('/chamado/atender/{id}', [ChamadoController::class, 'atender']);
 Route::post('/chamado/finalizar/{id}', [ChamadoController::class, 'finalizar']);
 Route::post('/chamado/delete/{id}', [ChamadoController::class, 'delete']);
-Route::get('/chamado/relatorio', [ChamadoController::class, 'relatorio']);
+Route::get('/', [ChamadoController::class, 'relatorio']);

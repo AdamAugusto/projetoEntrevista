@@ -26,7 +26,7 @@
         <nav class="navbar" style = "background-color: #ffa500;">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/list">List</a>
-                    <a class="navbar-brand" href="/chamado/relatorio">Inicio</a>
+                    <a class="navbar-brand" href="/">Inicio</a>
                     <a class="navbar-brand" href="/categoria/cadastro">Nova Categoria</a>
                     <a class="navbar-brand me-0" href="/chamado/cadastro">Novo Chamado</a>
                 </div>
