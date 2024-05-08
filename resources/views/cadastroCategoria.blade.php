@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('titulo', 'cadastro item')
+@section('titulo', 'cadastro Categoria')
 
 @section('conteudo')
     <form class="ms-3 me-3 mt-5" action="/categoria/store" method="POST">

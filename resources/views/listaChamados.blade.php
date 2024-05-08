@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('titulo', 'lista pedidos')
+@section('titulo', 'lista Chamados')
 
 @section('conteudo')
         <div class="row ms-3">
