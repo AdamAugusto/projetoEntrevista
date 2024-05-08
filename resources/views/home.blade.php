@@ -8,7 +8,7 @@
             <li class="d-flex justify-content-center">
                 <canvas id="myChart" style="width:100%;max-width:800px"></canvas>
             </li>
-            <li> porcentagem de realizados dentro do prazo:    {{($dentroPrazo/($dentroPrazo+$foraPrazo))*100}}%</li>
+            <li> porcentagem de chamados realizados dentro do prazo:    {{($dentroPrazo/($dentroPrazo+$foraPrazo))*100}}%</li>
         </ul>
     </div>
         <script
