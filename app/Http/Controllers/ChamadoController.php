@@ -40,6 +40,10 @@ class ChamadoController extends Controller
             'tituloChamado' => 'required',
             'descricaoChamado' => 'required',
             'categoriaChamado' => 'required'
+        ],[
+            'tituloChamado.required'=>"título é obrigatório",
+            'descricaoChamado.required'=>"Descrição é obrigatória",
+            'categoriaChamado.required'=>"Categoria é obrigatória",
         ]);
 
         $chamado = new Chamado();
