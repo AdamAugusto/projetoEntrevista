@@ -22,6 +22,8 @@ class CategoriaController extends Controller
     {
         $request->validate([
             'nomeCategoria' => 'required|unique:categorias,nome',
+        ], [
+            "nomeCategoria.unique" => "Categoria já cadastrada"
         ]);
 
         $categoria = new Categoria();
