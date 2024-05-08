@@ -12,3 +12,4 @@ Após ter feito a instalação do projeto, crie um arquivo .env ou modifique se 
 Para criar o Banco de dados executar a linha de comando "php artisan migrate".  
 Após a migrate e antes de começar a usar o software rodar a linha de comando "php artisan db:seed" para popular a tabela Situação com os dados corretos para o funcionamento do sistema.  
 Então para iniciar de vez o programa "php artisan serve" e ir a url que o terminal te retornar. 
+Para Cadastrar um chamado é obrigatório cadastrar uma Categoria antes.
