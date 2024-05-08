@@ -10,5 +10,5 @@
 Para executar este projeto após abri-lo no Visual Studio Code, você precisará executar o comando "composer install".  
 Após ter feito a instalação do projeto, crie um arquivo .env ou modifique se já existir um de acordo com o .env.example.  
 Para criar o Banco de dados executar a linha de comando "php artisan migrate".  
-Então para iniciar de vez o programa "php artisan serve" e ir a url que o terminal te retornar.  
 Após a migrate e antes de começar a usar o software rodar a linha de comando "php artisan db:seed" para popular a tabela Situação com os dados corretos para o funcionamento do sistema.  
+Então para iniciar de vez o programa "php artisan serve" e ir a url que o terminal te retornar. 
