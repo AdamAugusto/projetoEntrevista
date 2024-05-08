@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Para executar este projeto após abri-lo no Visual Studio Code, você precisará executar o comando "composer install".
+Para executar este projeto após abri-lo no Visual Studio Code, você precisará executar o comando "composer install".  
 Após ter feito a instalação do projeto, crie um arquivo .env ou modifique se já existir um de acordo com o .env.example.
 Para criar o Banco de dados executar a linha de comando "php artisan migrate".
 Então para iniciar de vez o programa "php artisan serve" e ir a url que o terminal te retornar
