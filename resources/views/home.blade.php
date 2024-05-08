@@ -3,6 +3,8 @@
 @section('titulo', 'Home')
 
 @section('conteudo')
+
+    @if(!empty($dentroPrazo))
     <div class="d-flex justify-content-center">
         <ul style="list-style: none; width: 1000px" class="text-center">
             <li class="d-flex justify-content-center">
@@ -11,6 +13,9 @@
             <li> porcentagem de chamados realizados dentro do prazo:    {{($dentroPrazo/($dentroPrazo+$foraPrazo))*100}}%</li>
         </ul>
     </div>
+    @else
+    <div class="text-center">Sem dados ainda para analisar</div>
+    @endif
         <script
         src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
         </script>
